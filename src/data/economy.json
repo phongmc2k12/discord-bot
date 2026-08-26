@@ -1,0 +1,23 @@
+{
+    "111111111111111111": {
+        "balance": 10700,
+        "bank": 0,
+        "items": [],
+        "last_daily": null,
+        "last_work": null
+    },
+    "222222222222222222": {
+        "balance": 9300,
+        "bank": 0,
+        "items": [],
+        "last_daily": null,
+        "last_work": null
+    },
+    "1392432192314933391": {
+        "balance": 900,
+        "bank": 0,
+        "items": [],
+        "last_daily": null,
+        "last_work": null
+    }
+}

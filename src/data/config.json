@@ -1,0 +1,96 @@
+{
+    "bot": {
+        "name": "Phong Bot",
+        "version": "2.0.0",
+        "prefix": "!",
+        "status": "online",
+        "activity": "!help để xem lệnh",
+        "activity_type": "playing"
+    },
+    "features": {
+        "welcome_message": true,
+        "goodbye_message": true,
+        "level_system": false,
+        "economy": true,
+        "auto_moderation": true,
+        "music": true,
+        "antispam": true,
+        "fun": true,
+        "admin": true,
+        "basic": true
+    },
+    "welcome": {
+        "enabled": true,
+        "channel_id": null,
+        "message": "Chào mừng {user_mention} đến với {server}! Bạn là thành viên thứ {member_count}",
+        "title": "👋 Chào mừng thành viên mới!",
+        "image_url": null,
+        "thumbnail_url": null,
+        "color": "#57F287"
+    },
+    "goodbye": {
+        "enabled": true,
+        "channel_id": null,
+        "message": "Tạm biệt {user}! Hy vọng gặp lại bạn!",
+        "title": "😢 Tạm biệt!",
+        "image_url": null,
+        "thumbnail_url": null,
+        "color": "#ED4245"
+    },
+    "antispam": {
+        "enabled": true,
+        "max_messages": 7,
+        "time_window": 10,
+        "mute_levels": [300, 3600, 10800, 36000, 86400, 259200]
+    },
+    "music": {
+        "enabled": true,
+        "default_volume": 50,
+        "max_queue_size": 100,
+        "ffmpeg_path": "C:\\ffmpeg\\bin\\ffmpeg.exe",
+        "download_dir": "downloads",
+        "cache_dir": "cache/audio"
+    },
+    "moderation": {
+        "auto_mute_after_warns": 3,
+        "mute_role_name": "Muted",
+        "log_channel_id": null
+    },
+    "messages": {
+        "welcome": "Chào mừng {user} đến với server!",
+        "goodbye": "{user} đã rời server!"
+    },
+    "colors": {
+        "primary": "#7289DA",
+        "success": "#57F287",
+        "error": "#ED4245",
+        "warning": "#FEE75C",
+        "info": "#00B0F4"
+    },
+    "channels": {
+        "welcome_channel": null,
+        "goodbye_channel": null,
+        "log_channel": null,
+        "mod_log_channel": null
+    },
+    "roles": {
+        "mute_role": "Muted",
+        "admin_role": "Admin",
+        "moderator_role": "Moderator"
+    },
+    "database": {
+        "type": "sqlite",
+        "path": "database/bot.db"
+    },
+    "economy": {
+        "enabled": true,
+        "starting_balance": 1000,
+        "daily_reward_min": 500,
+        "daily_reward_max": 2000,
+        "work_cooldown_hours": 1,
+        "gamble_win_rate": 0.4,
+        "bet_win_rate": 0.5,
+        "slots_jackpot_multiplier": 10,
+        "slots_pair_multiplier": 3
+    }
+}
